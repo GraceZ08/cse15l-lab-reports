@@ -8,8 +8,6 @@
 <br />
 <br />
 * Step 2: Remotely Connect
-
-
 <br />* type 
 #code block
  ssh cs15lwi23zz@ieng6.ucsd.edu
