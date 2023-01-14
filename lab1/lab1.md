@@ -7,7 +7,9 @@
 ![terminal](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab1/terminal.png)
 <br />
 <br />
-** Step 2: Remotely Connect
+* Step 2: Remotely Connect
+
+
 <br />* type 
 #code block
  ssh cs15lwi23zz@ieng6.ucsd.edu
