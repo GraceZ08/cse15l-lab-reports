@@ -7,7 +7,6 @@
 ![terminal](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab1/terminal.png)
 
 ## Step 2: Remotely Connect
-* type 
-```
-ssh cs15lwi23zz@ieng6.ucsd.edu
-```
+* type `ssh cs15lwi23atb@ieng6.ucsd.edu` in,(the 'atb' is the personal unique letters, can be replaced)
+* If it says "can't be established", and then type `yes` (it happens on a new computer usually)
+* type in the password, the password will not be shown while typing. After finish typing the password, press`enter`
