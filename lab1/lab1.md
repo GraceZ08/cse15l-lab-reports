@@ -8,6 +8,6 @@
 
 ## Step 2: Remotely Connect
 * type 
-'''
+\\\
 ssh cs15lwi23zz@ieng6.ucsd.edu
-'''
+\\\
