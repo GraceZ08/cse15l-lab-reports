@@ -14,5 +14,5 @@
 
 ## Step 3: Trying Some Commands
 * TRY some commands such as `cd`; `cd~`; `ls -a`etc.
-* For the lab, I also tried `ls -lat`
+* For the lab, I also tried `ls -lat`<br />
 ![command](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab1/commands.png)
