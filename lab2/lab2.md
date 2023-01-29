@@ -22,3 +22,11 @@
         int[] intputIV = {1,2,3};
         assertArrayEquals(new int[]{3,2,1},ArrayExamples.reversed(intputIV));
 ```
+-An input that doesn’t induce a failure, as a JUnit test and any associated code (Given)
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
