@@ -30,3 +30,4 @@
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+![Bug.png]
