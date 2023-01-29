@@ -3,7 +3,7 @@
 ## Step 1: download the VSCode
 * Download VSCode (the Visual Studio Code website [https://code.visualstudio.com/])
 * Make sure the computer have already download the `git`
-* After download and open the VSCode, press `ctrl`+`"`"` to open the terminal
+* After download and open the VSCode, press `ctrl`+` to open the terminal
 * open the launch profile on the right side, and press on `git bash`
 ![terminal](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab1/terminal.png)
 
