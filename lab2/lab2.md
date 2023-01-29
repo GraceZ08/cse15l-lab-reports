@@ -4,7 +4,7 @@
 
 ##Part 2: Choosed the second one
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code
-...
+```
 @Test
     public void testReversedII(){
       int[] input1 = {1,2,3,4 };
@@ -21,4 +21,4 @@
     public void testReversedIV(){
         int[] intputIV = {1,2,3};
         assertArrayEquals(new int[]{3,2,1},ArrayExamples.reversed(intputIV));
-...
+```
