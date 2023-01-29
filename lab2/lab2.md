@@ -30,4 +30,33 @@
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
-![Bug.png]
+![Bug](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/Bug.png)
+-The bug, as the before-and-after code change required to fix it
+-Before
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```
+  -After
+  ```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length/2; i += 1) {
+      newArray[i] = arr[arr.length - i -1];
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    if(arr.length % 2 != 0){
+      newArray[arr.length/2] = arr[arr.length/2];
+    }
+    if(arr.length < 2){
+      return arr;
+    }
+    return newArray;
+  }
+  ```
+  
