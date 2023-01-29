@@ -21,4 +21,5 @@
 * TRY some commands such as `cd`; `cd~`; `ls -a`etc.
 * For the lab, I also tried `ls -lat`<br />
 ![command](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab1/commands.png)
-* 
+* For the ones I tried, the "ls-a" shows the files and directories that hidden. (The files that start with `.` are hidden.)
+* 'ls-l': shows the files and directories in the current directory with detailed information in a list format
