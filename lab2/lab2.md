@@ -105,5 +105,5 @@ public class StringServer {
   - Bugs: incorrect bounds in for loop; incorrect array in return statement
   - Changes: make the bound half of the array(those special cases analyzed by other if statement); Assigned the value to new array.
   
-  ## Part#3
+  ## Part 3
   - In the two weeks lab, I learned how to write a simple test case, and how to write a simple web server.
