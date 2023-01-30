@@ -1,6 +1,6 @@
 # Lab Report#2 Servers and Bugs
 
-##Part 1
+## Part 1
 Based on the sample server `NumberServer`, I have the code here.
 ```
 import java.io.IOException;
@@ -40,8 +40,9 @@ public class StringServer {
     }
 }
 ```
-
-##Part 2: Choosed the second one
+![addHello](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/addHello.png)
+![addHowAreYou](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/addHowAreYou.png)
+## Part 2: Choosed the second one
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code
 ```
 @Test
