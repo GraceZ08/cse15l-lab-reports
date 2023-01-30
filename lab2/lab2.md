@@ -42,6 +42,9 @@ public class StringServer {
 ```
 ![addHello](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/addHello.png)
 ![addHowAreYou](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/addHowAreYou.png)
+- The method which I called to use is `handleRequest` from the class `class Handler implements URLHandler`
+- The parameter is the URL "http://localhost:2000/add-message?s=..." which followed by the message we want to put in.
+- I get the messege we put in, by using the "split", and store the message into a Arraylist called `addWords`.
 ## Part 2: Choosed the second one
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code
 ```
@@ -62,7 +65,7 @@ public class StringServer {
         int[] intputIV = {1,2,3};
         assertArrayEquals(new int[]{3,2,1},ArrayExamples.reversed(intputIV));
 ```
--An input that doesn’t induce a failure, as a JUnit test and any associated code (Given)
+- An input that doesn’t induce a failure, as a JUnit test and any associated code (Given)
 ```
 @Test
   public void testReversed() {
@@ -71,8 +74,8 @@ public class StringServer {
   }
 ```
 ![Bug](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/Bug.png)
--The bug, as the before-and-after code change required to fix it
--Before
+- The bug, as the before-and-after code change required to fix it
+- Before
 ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -82,7 +85,7 @@ public class StringServer {
     return arr;
   }
   ```
-  -After
+  - After
   ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -103,4 +106,4 @@ public class StringServer {
   - Changes: make the bound half of the array(those special cases analyzed by other if statement); Assigned the value to new array.
   
   ## Part3
-  -In the two weeks lab, I learned how to write a simple test case, and how to write a simple web server.
+  - In the two weeks lab, I learned how to write a simple test case, and how to write a simple web server.
