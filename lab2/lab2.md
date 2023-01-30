@@ -1,6 +1,45 @@
 # Lab Report#2 Servers and Bugs
 
 ##Part 1
+Based on the sample server `NumberServer`, I have the code here.
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class Handler implements URLHandler {
+    ArrayList<String> addWords = new ArrayList<String>();
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return "Add a String";
+        }else{
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                addWords.add(parameters[1]+"\n");
+                return String.valueOf(addWords);
+            }
+
+        }
+        return "404 Not Found!";
+    }
+}
+
+
+public class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
 
 ##Part 2: Choosed the second one
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code
@@ -59,4 +98,8 @@
     return newArray;
   }
   ```
+  - Bugs: incorrect bounds in for loop; incorrect array in return statement
+  - Changes: make the bound half of the array(those special cases analyzed by other if statement); Assigned the value to new array.
   
+  ## Part3
+  -In the two weeks lab, I learned how to write a simple test case, and how to write a simple web server.
