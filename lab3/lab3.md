@@ -2,4 +2,5 @@
 
 ## The Command I choose is `grep`
 
-- 
+- `grep pattern *`
+
