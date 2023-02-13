@@ -108,4 +108,5 @@ public class StringServer {
   - Changes: make the bound half of the array(those special cases analyzed by other if statement); Assigned the value to new array.
   
   ## Part 3
-  - In the two weeks lab, I learned how to write a simple test case, and how to write a simple web server.
+  - In the two weeks lab, I learned how to write a simple test case, and how to write a simple web server
+  - Such as in the week 3 lab, the search engine, use some basic keyword input to acquire the result that matches users query. A few very interesting thing about simple search engine is that it’s easy to use very user friendly, the speed for a simple search engine will be more efficient then a complex search engine, and also low cost of resource usage. 
