@@ -8,21 +8,23 @@ import java.net.URI;
 import java.util.ArrayList;
 
 class Handler implements URLHandler {
-    ArrayList<String> addWords = new ArrayList<String>();
+    StringBuilder messages = new StringBuilder();
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return "Add a String";
+            return messages.toString();
         }else{
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
-                addWords.add(parameters[1]+"\n");
-                return String.valueOf(addWords);
+                if (parameters[0].equals("s")){
+                    messages.append("\n" + parameters[1]);
+                    return messages.toString();
+                }
             }
-
+            return "404 Not Found!";
         }
-        return "404 Not Found!";
+
     }
 }
 
