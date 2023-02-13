@@ -43,7 +43,7 @@ public class StringServer {
 }
 ```
 ![addHello](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/addHello.png)
-![addHowAreYou](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/addHowAreYou.png)
+![howareyou](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab2/howareyou.png)
 - The method which I called to use is `handleRequest` from the class `class Handler implements URLHandler`
 - The parameter is the URL "http://localhost:2000/add-message?s=..." which followed by the message we want to put in.
 - I get the messege we put in, by using the "split", and store the message into a Arraylist called `addWords`.
