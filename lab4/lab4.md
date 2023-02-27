@@ -25,3 +25,13 @@ By using command `nano` to open file in terminal. (press `<enter>`)
 By using the arrow key `<up><down>`and `<left><right>`move the cursor to the place wanna change, and change the code, which is make `index1` to `index2`
 <br />
 Press `ctrl + x` to exit the file reading, then press `Y` and `enter` to save the file.
+
+## Step 5: Run the JUnit again
+![Step6CheckJUnitAgain](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab4/Step6CheckJUnitAgain.png)
+<br />
+After edit the file, I used`<up><up><up><enter>`to get the JUnit command from previous step.
+
+## Step 5: Git Push
+![Step7GitPush](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab4/Step7GitPush.png)
+<br />
+Using `git add [filename]`,(for this one is `git add ListExamples.java`, because I make edit on `ListExamples.java` file) `git commit -m "commit message"`, and `git push` to finish the task, and push the edit in github.
