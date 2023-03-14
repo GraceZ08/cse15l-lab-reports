@@ -1,5 +1,11 @@
 # Lab Report #4 Task From The Competition
 
+## Step 0: Log in `ieng6.ucsd.edu` accoutn
+![Login](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab4/Login.png)
+<br />
+Log in to the `ieng6.ucsd.edu`
+(Because I did the passward part in school's computer, I didn't have it on mine)
+
 ## Step 1: Git Clone
 ![Step1Clone](https://raw.githubusercontent.com/GraceZ08/cse15l-lab-reports/main/lab4/Step1Clone.png)
 <br />
